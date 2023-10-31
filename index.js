@@ -77,4 +77,4 @@ fs.readdir("./slash/", (_err, files) => {
 });
 
 
-client.login(Vtoken);
+client.login(procces.env.token);
